@@ -141,6 +141,10 @@ export default function Home() {
                 Sign In
               </Button>
             )}
+            <Button variant="outline" size="sm" onClick={() => window.open('/template-library', '_blank')}>
+              <Search className="h-4 w-4 mr-2" />
+              Template Library
+            </Button>
             <Button variant="outline" size="sm">
               <Settings className="h-4 w-4 mr-2" />
               Settings
